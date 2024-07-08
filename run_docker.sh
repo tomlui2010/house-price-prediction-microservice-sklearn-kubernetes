@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker image build -t tomlui2010/housepricepredictor:latest .
+docker image build -t housepricepredictor:latest .
 
 # Step 2: 
 # List docker images
