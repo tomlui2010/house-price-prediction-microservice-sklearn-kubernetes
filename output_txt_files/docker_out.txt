@@ -1,1 +1,17 @@
-<paste log output from Docker prediction, here>
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2024-07-20 06:04:20,450] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2024-07-20 06:04:20,466] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2024-07-20 06:04:20,477] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2024-07-20 06:04:20,538] INFO in app: prediction:  
+[20.35373177134412]
+192.168.65.1 - - [20/Jul/2024 06:04:20] "POST /predict HTTP/1.1" 200 -
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
