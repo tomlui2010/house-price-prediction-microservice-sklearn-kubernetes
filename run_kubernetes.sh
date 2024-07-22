@@ -20,5 +20,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward svc/housepricepredictor-deploy 8080:80
+kubectl port-forward svc/housepricepredictor-app 8080:80
 
