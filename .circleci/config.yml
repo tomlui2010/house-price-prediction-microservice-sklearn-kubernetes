@@ -32,7 +32,7 @@ jobs:
 
 workflows:
   version: 2
-  backend:
+  build_test:
     jobs:
       - build
   
